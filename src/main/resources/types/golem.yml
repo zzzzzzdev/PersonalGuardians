@@ -1,0 +1,38 @@
+Settings:
+  Max Number: 3
+  Chance: 20
+  Spawning: CONSTANT #RANDOM OR CONSTANT
+
+Spawn Item:
+  Material: BAT_SPAWN_EGG
+  Name: "&eGolem Guardian"
+  Lore:
+    - " "
+    - "&eInformation"
+    - "&e&l  &7Type: &fIRON GOLEM"
+    - "&e&l  &7Health: &f1000"
+    - "&e&l  &7Effects: &fStrength IV"
+    - ""
+    - "&7&o(( Once placed an elite body "
+    - "&7&oguard shall protect you! ))"
+
+Entity:
+  Display: "&eGolem Guardian"
+  Type: IRON_GOLEM
+  Health: 1000
+  Armor:
+    Helmet:
+      Material: DIAMOND_HELMET
+      Data: 0
+    Chestplate:
+      Material: DIAMOND_CHESTPLATE
+      Data: 0
+    Leggings:
+      Material: DIAMOND_LEGGINGS
+      Data: 0
+    Boots:
+      Material: DIAMOND_BOOTS
+      Data: 0
+  Potion Effects:
+    - 'STRENGTH:4:400'
+    - 'SPEED:10:2000'

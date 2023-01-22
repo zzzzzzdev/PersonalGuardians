@@ -1,0 +1,9 @@
+name: Guardians
+version: ${project.version}
+main: me.skript.guardians.Guardians
+api-version: 1.18
+authors: [ Skript ]
+description: Personal Guardians
+commands:
+  guardian:
+    aliases: [bodyguard]
